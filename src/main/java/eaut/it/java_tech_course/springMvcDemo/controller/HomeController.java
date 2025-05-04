@@ -12,4 +12,10 @@ public class HomeController {
         model.addAttribute("message", "Xin chào từ Spring MVC + TomEE + JSP!");
         return "home";
     }
+    
+    @GetMapping("/error")
+    public String error(Model model) {
+        model.addAttribute("errorMessage", "Trang này không tồn tại!");
+        return "error";
+    }
 }
