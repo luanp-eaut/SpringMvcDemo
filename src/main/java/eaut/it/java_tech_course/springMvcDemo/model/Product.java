@@ -1,5 +1,6 @@
 package eaut.it.java_tech_course.springMvcDemo.model;
 
+
 public class Product {
     private int id;
     private String name;
